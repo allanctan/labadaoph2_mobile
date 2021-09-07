@@ -1,0 +1,389 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sswhite"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/d4e50574b39c9a5f6171071c318e0f99/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/d4e50574b39c9a5f6171071c318e0f99/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/d4e50574b39c9a5f6171071c318e0f99/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+22
+23    <application
+23-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:3:4-42:19
+24        android:name="androidx.multidex.MultiDexApplication"
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/7f06d3e73182ae8feef09309be2b9ed9/core-1.1.0/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:5:9-43
+28        android:label="@string/app_name" >
+28-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:4:9-41
+29        <activity
+29-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:6:9-34:20
+30            android:name="com.sswhite.labadaph2_mobile.MainActivity"
+30-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:7:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:10:13-163
+32            android:hardwareAccelerated="true"
+32-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:11:13-47
+33            android:launchMode="singleTop"
+33-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:8:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:9:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:12:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:17:13-20:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:18:15-70
+45                android:resource="@style/NormalTheme" />
+45-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:19:15-52
+46            <!--
+47                 Displays an Android View that continues showing the launch screen
+48                 Drawable until Flutter paints its first frame, then this splash
+49                 screen fades out. A splash screen is useful to avoid any visual
+50                 gap between the end of Android's launch screen and the painting of
+51                 Flutter's first frame.
+52            -->
+53            <meta-data
+53-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:26:13-29:17
+54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+54-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:27:15-79
+55                android:resource="@drawable/launch_background" />
+55-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:28:15-61
+56
+57            <intent-filter>
+57-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:30:13-33:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:31:17-68
+58-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:31:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:32:17-76
+60-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:32:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64             Don't delete the meta-data below.
+65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+66        -->
+67        <meta-data
+67-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:37:9-39:33
+68            android:name="flutterEmbedding"
+68-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:38:13-44
+69            android:value="2" />
+69-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:39:13-30
+70        <meta-data
+70-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:40:9-41:70
+71            android:name="com.google.android.geo.API_KEY"
+71-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:40:20-65
+72            android:value="AIzaSyACS-SBAbYmzR-z6q8dVH4TcutyD_wwBL8" />
+72-->/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:41:13-68
+73
+74        <service
+74-->[:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+78            <meta-data
+78-->[:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+79-->[:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+82-->[:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+84            <meta-data
+84-->[:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+85-->[:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+88-->[:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+91-->[:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+94-->[:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-firestore:23.0.3] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/abba1e0d7821f65a9dea20e73c5b4b0f/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+100                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+100-->[com.google.firebase:firebase-firestore:23.0.3] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/abba1e0d7821f65a9dea20e73c5b4b0f/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-firestore:23.0.3] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/abba1e0d7821f65a9dea20e73c5b4b0f/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-storage:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/97e7a33e36293bd50e8505e70dc25391/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+103                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+103-->[com.google.firebase:firebase-storage:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/97e7a33e36293bd50e8505e70dc25391/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-storage:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/97e7a33e36293bd50e8505e70dc25391/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/807cae8e123c4757b666a9e4b9270ec3/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:18:13-20:85
+106                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+106-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/807cae8e123c4757b666a9e4b9270ec3/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:19:17-115
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/807cae8e123c4757b666a9e4b9270ec3/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:20:17-82
+108            <meta-data
+108-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/45bf59195c556f6227d93de9c15ae9db/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+109                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+109-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/45bf59195c556f6227d93de9c15ae9db/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/45bf59195c556f6227d93de9c15ae9db/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-installations:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/4e2e0085cf4d4d757f986bf84c2dd957/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+112                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+112-->[com.google.firebase:firebase-installations:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/4e2e0085cf4d4d757f986bf84c2dd957/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-installations:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/4e2e0085cf4d4d757f986bf84c2dd957/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+114        </service>
+115
+116        <activity
+116-->[:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+117            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+117-->[:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+118            android:exported="false"
+118-->[:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+119            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+119-->[:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+120        <activity
+120-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+121            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+122            android:excludeFromRecents="true"
+122-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+123            android:exported="true"
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+124            android:launchMode="singleTask"
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+126            <intent-filter>
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+127                <action android:name="android.intent.action.VIEW" />
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+129-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+130                <category android:name="android.intent.category.BROWSABLE" />
+130-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+130-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+131
+132                <data
+132-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+133                    android:host="firebase.auth"
+133-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+134                    android:path="/"
+134-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+135                    android:scheme="genericidp" />
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+136            </intent-filter>
+137        </activity>
+138        <activity
+138-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+139            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+139-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+140            android:excludeFromRecents="true"
+140-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+141            android:exported="true"
+141-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+142            android:launchMode="singleTask"
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+143-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+144            <intent-filter>
+144-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+145                <action android:name="android.intent.action.VIEW" />
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+146
+147                <category android:name="android.intent.category.DEFAULT" />
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+148                <category android:name="android.intent.category.BROWSABLE" />
+148-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+148-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+149
+150                <data
+150-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+151                    android:host="firebase.auth"
+151-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+152                    android:path="/"
+152-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+153                    android:scheme="recaptcha" />
+153-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+154            </intent-filter>
+155        </activity>
+156
+157        <service
+157-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+158            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+158-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+159            android:enabled="true"
+159-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+160            android:exported="false" >
+160-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+161            <intent-filter>
+161-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+162                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+162-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+162-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+164-->[com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+165            </intent-filter>
+166        </service>
+167
+168        <provider
+168-->[com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+169            android:name="com.google.firebase.provider.FirebaseInitProvider"
+169-->[com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+170            android:authorities="com.sswhite.firebaseinitprovider"
+170-->[com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+171            android:directBootAware="true"
+171-->[com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+172            android:exported="false"
+172-->[com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+173            android:initOrder="100" />
+173-->[com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+174
+175        <receiver
+175-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+176            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+176-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+177            android:enabled="true"
+177-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+178            android:exported="false" >
+178-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+179        </receiver>
+180
+181        <service
+181-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+182            android:name="com.google.android.gms.measurement.AppMeasurementService"
+182-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+184            android:exported="false" />
+184-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+185        <service
+185-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+186            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+186-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+187            android:enabled="true"
+187-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+188            android:exported="false"
+188-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+189            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+189-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+190        <uses-library
+190-->[com.google.android.gms:play-services-maps:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/d4e50574b39c9a5f6171071c318e0f99/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+191            android:name="org.apache.http.legacy"
+191-->[com.google.android.gms:play-services-maps:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/d4e50574b39c9a5f6171071c318e0f99/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+192            android:required="false" />
+192-->[com.google.android.gms:play-services-maps:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/d4e50574b39c9a5f6171071c318e0f99/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+193
+194        <activity
+194-->[com.google.android.gms:play-services-base:17.1.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/1b0c70f3ae6960ffe053255e18fa4222/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+195            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+195-->[com.google.android.gms:play-services-base:17.1.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/1b0c70f3ae6960ffe053255e18fa4222/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+196            android:exported="false"
+196-->[com.google.android.gms:play-services-base:17.1.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/1b0c70f3ae6960ffe053255e18fa4222/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+197-->[com.google.android.gms:play-services-base:17.1.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/1b0c70f3ae6960ffe053255e18fa4222/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+198
+199        <meta-data
+199-->[com.google.android.gms:play-services-basement:17.1.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ae2ec05622259ae851032d01f323ddc6/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+200            android:name="com.google.android.gms.version"
+200-->[com.google.android.gms:play-services-basement:17.1.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ae2ec05622259ae851032d01f323ddc6/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+201            android:value="@integer/google_play_services_version" />
+201-->[com.google.android.gms:play-services-basement:17.1.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ae2ec05622259ae851032d01f323ddc6/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+202
+203        <service
+203-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+204            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+204-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+205            android:exported="false" >
+205-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+206            <meta-data
+206-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+207                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+207-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+208                android:value="cct" />
+208-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+209        </service>
+210        <service
+210-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+211            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+211-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+212            android:exported="false"
+212-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+213            android:permission="android.permission.BIND_JOB_SERVICE" >
+213-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+214        </service>
+215
+216        <receiver
+216-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+217            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+217-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+218            android:exported="false" />
+218-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+219    </application>
+220
+221</manifest>
