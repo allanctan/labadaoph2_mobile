@@ -38,9 +38,7 @@ class AppDrawer extends StatelessWidget {
   }
 
   Widget _createDrawerItem(BuildContext context,
-      {required String text,
-      bool notify = false,
-      required GestureTapCallback onTap}) {
+      {required String text, required GestureTapCallback onTap}) {
     return Padding(
       padding: const EdgeInsets.fromLTRB(0, 4, 0, 0),
       child: ListTile(
@@ -66,12 +64,30 @@ class AppDrawer extends StatelessWidget {
               Navigator.of(context)
                   .pushNamed(OrdersPage.routeName, arguments: "new_");
             }),
-            _createDrawerItem(context, text: '2 - For Pickup', onTap: () {}),
-            _createDrawerItem(context, text: '3 - In Process', onTap: () {}),
-            _createDrawerItem(context, text: '4 - For Payment', onTap: () {}),
-            _createDrawerItem(context, text: '5 - Paid', onTap: () {}),
-            _createDrawerItem(context, text: '6 - For Delivery', onTap: () {}),
-            _createDrawerItem(context, text: '7 - Done', onTap: () {}),
+            _createDrawerItem(context, text: '2 - For Pickup', onTap: () {
+              Navigator.of(context)
+                  .pushNamed(OrdersPage.routeName, arguments: "for_pickup");
+            }),
+            _createDrawerItem(context, text: '3 - In Process', onTap: () {
+              Navigator.of(context)
+                  .pushNamed(OrdersPage.routeName, arguments: "in_process");
+            }),
+            _createDrawerItem(context, text: '4 - For Payment', onTap: () {
+              Navigator.of(context)
+                  .pushNamed(OrdersPage.routeName, arguments: "for_payment");
+            }),
+            _createDrawerItem(context, text: '5 - Paid', onTap: () {
+              Navigator.of(context)
+                  .pushNamed(OrdersPage.routeName, arguments: "paid");
+            }),
+            _createDrawerItem(context, text: '6 - For Delivery', onTap: () {
+              Navigator.of(context)
+                  .pushNamed(OrdersPage.routeName, arguments: "for_delivery");
+            }),
+            _createDrawerItem(context, text: '7 - Done', onTap: () {
+              Navigator.of(context)
+                  .pushNamed(OrdersPage.routeName, arguments: "done");
+            }),
             _createDrawerItem(context, text: 'Archived', onTap: () {
               Navigator.of(context)
                   .pushNamed(OrdersPage.routeName, arguments: "archived");

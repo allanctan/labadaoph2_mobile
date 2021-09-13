@@ -1,12 +1,15 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:http/http.dart' as http;
 import 'package:labadaph2_mobile/globals.dart' as globals;
 
 class OrdersService {
-  static DocumentReference _dbRef =
+  static DocumentReference<Map<String, dynamic>> _dbRef =
       FirebaseFirestore.instance.doc("stores/" + globals.tenantRef);
 
-  Future<void> editOrder(Map<String, dynamic> tax, String docID) {
-    return _dbRef.collection('orders').doc(docID).update(tax);
+  static Map<String, dynamic>? notification;
+
+  Future<void> updateOrder(Map<String, dynamic> order, String docId) {
+    return _dbRef.collection('orders').doc(docId).update(order);
   }
 
   Future<void> archiveOrder(String docID) {
@@ -16,7 +19,7 @@ class OrdersService {
         .update({"status": "archived"});
   }
 
-  Stream<QuerySnapshot> getOrdersStream(String status) {
+  Stream<QuerySnapshot<Map<String, dynamic>>> getOrdersStream(String status) {
     print("Retrieving orders with status:$status");
     return _dbRef
         .collection('orders')
@@ -24,5 +27,86 @@ class OrdersService {
         .orderBy('createdAt', descending: true)
         .limit(100)
         .snapshots();
+  }
+
+  Future<QuerySnapshot<Map<String, dynamic>>> getOfferings() {
+    print("Retrieving offerings");
+    return _dbRef.collection('offerings').orderBy('order').get();
+  }
+
+  Future<QuerySnapshot<Map<String, dynamic>>> getModesofPayment() {
+    print("Retrieving modes of payment");
+    return _dbRef.collection('modes_of_payment').orderBy('order').get();
+  }
+
+  Future<QuerySnapshot<Map<String, dynamic>>> getPaymentDetails(String mode) {
+    print("Retrieving modes of payment :" + mode);
+    return _dbRef
+        .collection('modes_of_payment')
+        .where('name', isEqualTo: mode)
+        .get();
+  }
+
+  Future<void> sendEmail(String template, Map<String, dynamic> order) async {
+    DocumentSnapshot<Map<String, dynamic>> notif =
+        await _dbRef.collection('notifications').doc(template).get();
+    String bcc = "support@labada.ph," + order["store_email"];
+    if (notif.exists) if (notif.data()?['email']?.isNotEmpty ?? false)
+      bcc = bcc + "," + notif.data()!['email']!;
+    FirebaseFirestore.instance.collection("mail").add({
+      "bcc": bcc,
+      "template": {"data": order, "name": template},
+      "to": order["email"]
+    });
+  }
+
+  String buildSMSMessage(String template, Map<String, dynamic> order) {
+    if (template == "for_pickup")
+      return "Hi " +
+          order['firstname'] +
+          ", Your laundry pickup is scheduled " +
+          order['pickupDate'] +
+          ", " +
+          order['pickupTime'] +
+          ". Thank you. " +
+          order['store_name'];
+    else if (template == "for_delivery")
+      return "Hi " +
+          order['firstname'] +
+          ", Your laundry is ready. Delivery is scheduled " +
+          order['pickupDate'] +
+          ", " +
+          order['pickupTime'] +
+          ". Thank you. " +
+          order['store_name'];
+    return "";
+  }
+
+  Future<void> sendSMS(String template, Map<String, dynamic> order) async {
+    DocumentSnapshot<Map<String, dynamic>> store = await _dbRef.get();
+    String apiKey = "";
+    String senderName = "";
+    if (store.exists) {
+      apiKey = store.data()?['semaphore_apikey'] ?? "";
+      senderName = store.data()?['semaphore_name'] ?? "";
+    }
+
+    if (apiKey.isNotEmpty) {
+      DocumentSnapshot<Map<String, dynamic>> notif =
+          await _dbRef.collection('notifications').doc(template).get();
+      var url = Uri.parse('https://api.semaphore.co/api/v4/messages');
+      String numbers = order["mobileno"];
+      if (notif.exists) if (notif.data()?['mobile']?.isNotEmpty ?? false)
+        numbers = numbers + "," + notif.data()!['mobile']!;
+      String message = buildSMSMessage(template, order);
+      var response = await http.post(url, body: {
+        'apikey': apiKey,
+        'sendername': senderName,
+        'number': numbers,
+        'message': message
+      });
+      print('Response status: ${response.statusCode}');
+      print('Response body: ${response.body}');
+    }
   }
 }

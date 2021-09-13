@@ -21,11 +21,6 @@ class _LoginFormState extends State<LoginForm> with TickerProviderStateMixin {
   final _formKey = new GlobalKey<FormState>();
 
   @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     LoginModel model = Provider.of<LoginModel>(context, listen: false);
     return Container(

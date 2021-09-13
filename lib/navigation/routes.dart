@@ -6,6 +6,7 @@ import 'package:labadaph2_mobile/globals.dart' as globals;
 import 'package:labadaph2_mobile/login/login_signup_page.dart';
 import 'package:labadaph2_mobile/map/map_page.dart';
 import 'package:labadaph2_mobile/navigation/root_nav.dart';
+import 'package:labadaph2_mobile/order/order_page.dart';
 import 'package:labadaph2_mobile/order/orders_page.dart';
 import 'package:labadaph2_mobile/password-reset/new_password_page.dart';
 import 'package:labadaph2_mobile/password-reset/password_reset_success_page.dart';
@@ -47,7 +48,13 @@ class Routes {
           builder: (context) =>
               OrdersPage(status: settings.arguments.toString()));
     } else if (settings.name == MapPage.routeName) {
-      return MaterialPageRoute(builder: (context) => MapPage());
+      return MaterialPageRoute(
+          builder: (context) =>
+              MapPage(settings.arguments as Map<String, dynamic>));
+    } else if (settings.name == OrderPage.routeName) {
+      return MaterialPageRoute(
+          builder: (context) =>
+              OrderPage(settings.arguments as Map<String, dynamic>));
     }
 
     return MaterialPageRoute(
