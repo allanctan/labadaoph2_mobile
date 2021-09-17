@@ -6,14 +6,19 @@ INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/
 INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
 MERGED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
 MERGED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:maps_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_maps_flutter] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:wakelock] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:package_info] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/40d664840d0789ab58d5e2b90ad84d7e/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -27,6 +32,12 @@ MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/4e2e0085cf4d4d757f986bf84c2dd957/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/78765de103d17c9169cd3c928791c067/jetified-firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/c9de05fab0c893636d9dd779ddc11535/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/e3b2a779e8bfa319478f4ffab1bad761/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/fcd01e929986b9355b77dcbd15cbec9a/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ef92a6aa75f898da7d4009bf0133aafd/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ae58637a41e3de603bafb968684731d2/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2a79e7891a5bc6ea0486e403354834c6/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.browser:browser:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/13f72878a2d5ce0b1a7ec046aef4c921/browser-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/c60c09fd3b9b338ad4c7c23b1145d81c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:17:1-46:12
@@ -63,6 +74,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/allanctan/.gradl
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6adca9630e9eb5eb5a0014f8128798ce/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/47194de05373fe2963d81d3695b4571d/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/5694bac7ca6051e565d8e5a3c42de3bd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ea2b405f6fce1a3e74f8c46a5fd31732/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/5f7df1f86f791d4a851de8e2f82479c4/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/e094bd6c89b6df396bcf882918685c9d/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
@@ -97,16 +110,18 @@ application
 ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:3:4-42:19
 MERGED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
 MERGED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
 MERGED from [:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
@@ -166,7 +181,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alla
 	android:label
 		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:4:9-41
 	android:icon
-		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:5:9-43
+		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:5:9-45
 activity#com.sswhite.labadaph2_mobile.MainActivity
 ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:6:9-34:20
 	android:launchMode
@@ -221,22 +236,32 @@ INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/
 INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:maps_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:maps_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:package_info] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -263,6 +288,18 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /Users
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/78765de103d17c9169cd3c928791c067/jetified-firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2bc6620d7fa32df813a7ffe1814d973d/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/c9de05fab0c893636d9dd779ddc11535/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/c9de05fab0c893636d9dd779ddc11535/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/e3b2a779e8bfa319478f4ffab1bad761/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/e3b2a779e8bfa319478f4ffab1bad761/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/fcd01e929986b9355b77dcbd15cbec9a/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/fcd01e929986b9355b77dcbd15cbec9a/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ef92a6aa75f898da7d4009bf0133aafd/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ef92a6aa75f898da7d4009bf0133aafd/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ae58637a41e3de603bafb968684731d2/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ae58637a41e3de603bafb968684731d2/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2a79e7891a5bc6ea0486e403354834c6/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2a79e7891a5bc6ea0486e403354834c6/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/13f72878a2d5ce0b1a7ec046aef4c921/browser-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/13f72878a2d5ce0b1a7ec046aef4c921/browser-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/c60c09fd3b9b338ad4c7c23b1145d81c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
@@ -335,6 +372,10 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/allanctan/.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/47194de05373fe2963d81d3695b4571d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/5694bac7ca6051e565d8e5a3c42de3bd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/5694bac7ca6051e565d8e5a3c42de3bd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ea2b405f6fce1a3e74f8c46a5fd31732/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/ea2b405f6fce1a3e74f8c46a5fd31732/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/5f7df1f86f791d4a851de8e2f82479c4/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/5f7df1f86f791d4a851de8e2f82479c4/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/e094bd6c89b6df396bcf882918685c9d/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/e094bd6c89b6df396bcf882918685c9d/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
@@ -399,14 +440,14 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /User
 		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/debug/AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
 MERGED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
 MERGED from [:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_auth] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
@@ -437,6 +478,12 @@ ADDED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph
 		ADDED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/58313c74b9f8b3718633bfa2c1391988/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
@@ -449,6 +496,8 @@ MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/45bf59195c556f6227d93de9c15ae9db/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/4e2e0085cf4d4d757f986bf84c2dd957/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/4e2e0085cf4d4d757f986bf84c2dd957/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2a79e7891a5bc6ea0486e403354834c6/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/2a79e7891a5bc6ea0486e403354834c6/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/31aabd68e4443ba09a7d10f517600e02/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/af0cf6157ca419ab431ebf6ee32b21d9/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:24:5-79
@@ -457,6 +506,8 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/allanctan/
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/d4e50574b39c9a5f6171071c318e0f99/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/97f90d74f63706095b36b6ed88e78c90/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/97f90d74f63706095b36b6ed88e78c90/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/5f7df1f86f791d4a851de8e2f82479c4/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/5f7df1f86f791d4a851de8e2f82479c4/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/cf4a6ea1f66573e544c9ecb3b94d210e/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/allanctan/.gradle/caches/transforms-2/files-2.1/6bfe1ddfebb1bcc6f8fc5a01e6113924/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
@@ -495,18 +546,28 @@ ADDED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mo
 		ADDED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_storage] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
 		ADDED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
 activity#io.flutter.plugins.urllauncher.WebViewActivity
 ADDED from [:url_launcher] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
 	android:exported

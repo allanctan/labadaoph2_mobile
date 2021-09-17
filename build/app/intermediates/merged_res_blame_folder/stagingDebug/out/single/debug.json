@@ -4,10 +4,6 @@
         "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
@@ -20,11 +16,35 @@
         "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/drawable-v21/launch_background.xml"
     },
     {
-        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/drawable_launch_background.xml.flat",
-        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/drawable/launch_background.xml"
+        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-mdpi/launcher_icon.png"
     },
     {
         "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-hdpi_launcher_icon.png.flat",
+        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/drawable_launch_background.xml.flat",
+        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/drawable/launch_background.xml"
+    },
+    {
+        "merged": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/app/intermediates/res/merged/staging/debug/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "/Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png"
     }
 ]
