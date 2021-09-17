@@ -25,6 +25,7 @@ class PhotoUploadGallery extends StatefulWidget {
 }
 
 class _PhotoUploadGalleryState extends State<PhotoUploadGallery> {
+  bool _isBusy = false;
   final ImagePicker _picker = ImagePicker();
   List<XFile> photos = [];
   Map<String, String> imageUrls = {};
@@ -40,9 +41,15 @@ class _PhotoUploadGalleryState extends State<PhotoUploadGallery> {
   void _takePhoto() {
     _picker.pickImage(source: ImageSource.camera).then((XFile? photo) async {
       if (photo != null) {
+        setState(() {
+          _isBusy = true;
+        });
         imageUrls[photo.path] = "";
         photos.add(photo);
         await _uploadPhoto(photo);
+        setState(() {
+          _isBusy = false;
+        });
       }
     });
   }
@@ -50,9 +57,15 @@ class _PhotoUploadGalleryState extends State<PhotoUploadGallery> {
   void _chooseFromGallery() {
     _picker.pickImage(source: ImageSource.gallery).then((XFile? photo) async {
       if (photo != null) {
+        setState(() {
+          _isBusy = true;
+        });
         imageUrls[photo.path] = "";
         photos.add(photo);
         await _uploadPhoto(photo);
+        setState(() {
+          _isBusy = false;
+        });
       }
     });
   }

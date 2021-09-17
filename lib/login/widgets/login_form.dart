@@ -83,28 +83,28 @@ class _LoginFormState extends State<LoginForm> with TickerProviderStateMixin {
                   ),
                   onPressed: () => model.login(context, _formKey),
                 ),
-                SizedBox(
-                  height: 24,
-                ),
-                RichText(
-                  text: TextSpan(
-                    children: <TextSpan>[
-                      TextSpan(
-                        text: "Not yet registered? ",
-                        style: TextStyle(
-                            color: Theme.of(context).colorScheme.onSurface),
-                      ),
-                      TextSpan(
-                        text: "Create your account.",
-                        style: TextStyle(color: Theme.of(context).accentColor),
-                        recognizer: TapGestureRecognizer()
-                          ..onTap = () {
-                            model.switchToLogin(false);
-                          },
-                      ),
-                    ],
-                  ),
-                ),
+                // SizedBox(
+                //   height: 24,
+                // ),
+                // RichText(
+                //   text: TextSpan(
+                //     children: <TextSpan>[
+                //       TextSpan(
+                //         text: "Not yet registered? ",
+                //         style: TextStyle(
+                //             color: Theme.of(context).colorScheme.onSurface),
+                //       ),
+                //       TextSpan(
+                //         text: "Create your account.",
+                //         style: TextStyle(color: Theme.of(context).accentColor),
+                //         recognizer: TapGestureRecognizer()
+                //           ..onTap = () {
+                //             model.switchToLogin(false);
+                //           },
+                //       ),
+                //     ],
+                //   ),
+                // ),
               ],
             ),
           ),

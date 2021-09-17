@@ -18,13 +18,38 @@ class LoginSignupPage extends StatefulWidget {
 }
 
 class _LoginSignupPageState extends State<LoginSignupPage> {
+  int tapCounter = 0;
+  int oldTimestamp = 0;
+
   Widget _buildForm(BuildContext context) {
     LoginModel model = Provider.of<LoginModel>(context, listen: false);
     return ListView(
       children: [
         SizedBox(height: 48),
-        Image(
-          image: AssetImage('assets/logo.png'),
+        GestureDetector(
+          child: Image(
+            image: AssetImage('assets/logo.png'),
+          ),
+          onTap: () {
+            int currentTimestamp = DateTime.now().millisecondsSinceEpoch;
+            print('currentTimestamp $currentTimestamp');
+            print('oldTimestamp $oldTimestamp');
+            print('tapCounter $tapCounter');
+            if (tapCounter == 0) {
+              oldTimestamp = 0;
+            }
+            if (oldTimestamp == 0 || currentTimestamp - oldTimestamp < 450) {
+              tapCounter += 1;
+              oldTimestamp = currentTimestamp;
+              if (tapCounter >= 10) {
+                tapCounter = 0;
+                oldTimestamp = 0;
+                model.switchToLogin(false);
+              }
+            } else {
+              tapCounter = 0;
+            }
+          },
         ),
         SizedBox(height: 24),
         FutureBuilder<bool>(
@@ -34,7 +59,7 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
                 snapshot.hasData) {
               if (model.isLoginPage == null) model.isLoginPage = snapshot.data;
             }
-            if (model.isLoginPage ?? false) {
+            if (model.isLoginPage ?? true) {
               // login
               return LoginForm();
             } else {

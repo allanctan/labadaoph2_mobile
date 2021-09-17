@@ -12,6 +12,14 @@ class OrdersService {
     return _dbRef.collection('orders').doc(docId).update(order);
   }
 
+  Future<void> addActivity({required String docId, required String activity}) {
+    return _dbRef
+        .collection('orders')
+        .doc(docId)
+        .collection("activity")
+        .add({'updatedAt': DateTime.now(), 'activity': activity});
+  }
+
   Future<void> archiveOrder(String docID) {
     return _dbRef
         .collection('orders')

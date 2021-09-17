@@ -16,7 +16,9 @@ class Prefs {
 
   static Future<bool> isRegistered() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    return prefs.getString("tenantRef")?.isNotEmpty ?? false;
+//    return prefs.getString("tenantRef")?.isNotEmpty ?? false;
+    // always go to login
+    return true;
   }
 
   static Future<void> saveTenantRef(String tenantRef) async {

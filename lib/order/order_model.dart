@@ -23,6 +23,9 @@ class OrderModel extends ChangeNotifier {
       'pickupTime': scheduleTime,
       'status': 'for_pickup',
     }, data['docId']);
+    orderService.addActivity(
+        docId: data['docId'],
+        activity: "Pickup scheduled: $scheduleDate $scheduleTime");
     Map<String, dynamic> tmpOrder = data;
     tmpOrder.addAll({
       'pickupDate': scheduleDate,
@@ -40,6 +43,9 @@ class OrderModel extends ChangeNotifier {
       'deliveryTime': scheduleTime,
       'status': 'for_delivery',
     }, data['docId']);
+    orderService.addActivity(
+        docId: data['docId'],
+        activity: "Delivery scheduled: $scheduleDate $scheduleTime");
     Map<String, dynamic> tmpOrder = data;
     tmpOrder.addAll({
       'deliveryDate': scheduleDate,
@@ -58,6 +64,10 @@ class OrderModel extends ChangeNotifier {
       'imageUrls': urls,
       'status': 'in_process',
     }, data['docId']);
+    orderService.addActivity(
+        docId: data['docId'],
+        activity:
+            "Pickup done. " + imageUrls.length.toString() + " photo taken. ");
     Map<String, dynamic> tmpOrder = data;
     tmpOrder.addAll({
       'imageUrls': urls,
@@ -94,6 +104,8 @@ class OrderModel extends ChangeNotifier {
     updates["grandTotal"] = grandTotal.toString();
     updates["status"] = "for_payment";
     orderService.updateOrder(updates, data['docId']);
+    orderService.addActivity(
+        docId: data['docId'], activity: "Now processing... ");
     QuerySnapshot<Map<String, dynamic>> snapshot =
         await orderService.getPaymentDetails(data['modes_of_payment']);
     String paymentDetails = snapshot.docs.first.data()['description'];
@@ -113,6 +125,7 @@ class OrderModel extends ChangeNotifier {
       'paid_via': mode,
       'status': 'paid',
     }, data['docId']);
+    orderService.addActivity(docId: data['docId'], activity: "Paid via $mode");
   }
 
   deliveryPhoto(Map<String, String> imageUrls) {
@@ -122,11 +135,18 @@ class OrderModel extends ChangeNotifier {
       'deliverImageUrls': urls,
       'status': 'done',
     }, data['docId']);
+    orderService.addActivity(
+        docId: data['docId'],
+        activity: "Laundry delivered! " +
+            imageUrls.length.toString() +
+            " photo taken. ");
   }
 
   delivered() {
     orderService.updateOrder({
       'status': 'done',
     }, data['docId']);
+    orderService.addActivity(
+        docId: data['docId'], activity: "Laundry delivered! ");
   }
 }
