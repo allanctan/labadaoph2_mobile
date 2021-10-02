@@ -39,4 +39,38 @@ class DialogHelper {
       },
     );
   }
+
+  static Future<bool> confirmYesNo(
+      BuildContext context, String title, String message) async {
+    return await showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(
+            title,
+            style: Theme.of(context)
+                .textTheme
+                .headline6
+                ?.apply(fontWeightDelta: 2),
+          ),
+          content: Text(message),
+          actions: <Widget>[
+            TextButton(
+                onPressed: () => Navigator.of(context).pop(true),
+                child: Text(
+                  "Yes",
+                  style: Theme.of(context).textTheme.bodyText1,
+                )),
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(false),
+              child: Text(
+                "No",
+                style: Theme.of(context).textTheme.bodyText1,
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
 }

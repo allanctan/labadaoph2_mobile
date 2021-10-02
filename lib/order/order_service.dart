@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:http/http.dart' as http;
 import 'package:labadaph2_mobile/globals.dart' as globals;
@@ -33,7 +36,6 @@ class OrdersService {
         .collection('orders')
         .where("status", isEqualTo: status)
         .orderBy('createdAt', descending: true)
-        .limit(100)
         .snapshots();
   }
 
@@ -87,6 +89,13 @@ class OrdersService {
           order['pickupTime'] +
           ". Thank you. " +
           order['store_name'];
+    else if (template == "in_process")
+      return "Hi " +
+          order['firstname'] +
+          ", Your laundry is received. Please check " +
+          order['order_page_url'] +
+          " for your reference. Thank you. " +
+          order['store_name'];
     return "";
   }
 
@@ -97,6 +106,36 @@ class OrdersService {
     if (store.exists) {
       apiKey = store.data()?['semaphore_apikey'] ?? "";
       senderName = store.data()?['semaphore_name'] ?? "";
+      String longUrl = (store.data()?['order_page_url'] ?? "") +
+          "?sid=" +
+          store.id +
+          "&oid=" +
+          (order['docId'] ?? "");
+      var url = Uri.parse('https://api-ssl.bitly.com/v4/shorten');
+
+      http.Response response = await http.post(
+        url,
+        headers: {
+          HttpHeaders.authorizationHeader:
+              '429f9f71034ba3601d11153742ae7a08725c2df2',
+          HttpHeaders.contentTypeHeader: 'application/json'
+        },
+        body: jsonEncode(
+          {
+            "long_url": longUrl,
+            "domain": "bit.ly",
+            "group_guid": "Bla189FHnz7"
+          },
+        ),
+      );
+      print('Response status: ${response.statusCode}');
+      print('Response body: ${response.body}');
+      if (response.statusCode < 300) {
+        order.putIfAbsent(
+            'order_page_url', () => jsonDecode(response.body)['link']);
+      } else {
+        print('Not sending SMS due to bitly link.');
+      }
     }
 
     if (apiKey.isNotEmpty) {

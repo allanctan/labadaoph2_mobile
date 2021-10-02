@@ -26,18 +26,18 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
     return new Scaffold(
         body: Stack(
       children: <Widget>[
-        Opacity(
-          opacity: _isLoading ? 0.3 : 1.0,
-          child: new Container(
-            decoration: new BoxDecoration(
-              image: new DecorationImage(
-                image: new AssetImage("assets/password-bg.png"),
-                fit: BoxFit.fitWidth,
-                alignment: Alignment.bottomLeft,
-              ),
-            ),
-          ),
-        ),
+        // Opacity(
+        //   opacity: _isLoading ? 0.3 : 1.0,
+        //   child: new Container(
+        //     decoration: new BoxDecoration(
+        //       image: new DecorationImage(
+        //         image: new AssetImage("assets/password-bg.png"),
+        //         fit: BoxFit.fitWidth,
+        //         alignment: Alignment.bottomLeft,
+        //       ),
+        //     ),
+        //   ),
+        // ),
         _showCircularProgress(),
         Opacity(
           opacity: _isLoading ? 0.3 : 1.0,

@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_html/flutter_html.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../order_model.dart';
 
@@ -72,9 +73,22 @@ class _CustomerCardState extends State<CustomerCard> {
                       });
                     },
                     child: Text("Copy Details")),
-                TextButton(onPressed: () => {}, child: Text("Call")),
-                TextButton(onPressed: () => {}, child: Text("SMS")),
-                TextButton(onPressed: () => {}, child: Text("Email"))
+                TextButton(
+                    onPressed: () async {
+                      String uri = "tel://" + order.data['mobileno'];
+                      if (await canLaunch(uri)) {
+                        await launch(uri);
+                      }
+                    },
+                    child: Text("Call")),
+                TextButton(
+                    onPressed: () async {
+                      String uri = "sms://" + order.data['mobileno'];
+                      if (await canLaunch(uri)) {
+                        await launch(uri);
+                      }
+                    },
+                    child: Text("SMS")),
               ],
             ),
             Divider(
@@ -100,8 +114,12 @@ class _CustomerCardState extends State<CustomerCard> {
                       expanded = !expanded;
                     });
                   },
-                  icon: Icon(expanded?Icons.arrow_drop_up:Icons.arrow_drop_down),
+                  icon: Icon(expanded
+                      ? Icons.keyboard_arrow_up
+                      : Icons.keyboard_arrow_down),
                 ),
+                Text(expanded ? "HIDE" : "SHOW",
+                    style: Theme.of(context).textTheme.caption),
               ],
             ),
             Visibility(

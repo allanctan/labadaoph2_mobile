@@ -94,18 +94,18 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
           child: Consumer<LoginModel>(
             builder: (context, model, child) => Stack(
               children: <Widget>[
-                Opacity(
-                  opacity: model.isBusy ? 0.3 : 1.0,
-                  child: Container(
-                    decoration: new BoxDecoration(
-                      image: new DecorationImage(
-                        image: new AssetImage("assets/login-bg.png"),
-                        fit: BoxFit.cover,
-                        alignment: Alignment.topCenter,
-                      ),
-                    ),
-                  ),
-                ),
+                // Opacity(
+                //   opacity: model.isBusy ? 0.3 : 1.0,
+                //   child: Container(
+                //     decoration: new BoxDecoration(
+                //       image: new DecorationImage(
+                //         image: new AssetImage("assets/login-bg.png"),
+                //         fit: BoxFit.cover,
+                //         alignment: Alignment.topCenter,
+                //       ),
+                //     ),
+                //   ),
+                // ),
                 Opacity(
                   opacity: model.isBusy ? 0.3 : 1.0,
                   child: _buildForm(context),

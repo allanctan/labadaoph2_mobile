@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:labadaph2_mobile/common/loading.dart';
 import 'package:labadaph2_mobile/common/prefs.dart';
-import 'package:labadaph2_mobile/navigation/root_nav.dart';
+import 'package:labadaph2_mobile/navigation/routes.dart';
 import 'package:labadaph2_mobile/password-reset/new_password_page.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
@@ -27,6 +27,7 @@ class _OTPPageState extends State<OTPPage> {
   final _formKey = GlobalKey<FormState>();
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   static final RegExp _numeric = RegExp(r'^[0-9]+$');
+  final Routes routes = new Routes();
 
   String mobile;
   final String? password;
@@ -155,11 +156,14 @@ class _OTPPageState extends State<OTPPage> {
 
   _proceed(AuthCredential credential) async {
     print("Proceed to next...");
+    Widget nextPage = await routes.routeLogin();
     setState(() {
       _isLoading = false;
     });
-
-    Navigator.pushReplacementNamed(context, RootNav.routeName);
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => nextPage),
+    );
   }
 
   _doSuccess(AuthCredential authCredential) {
@@ -169,9 +173,7 @@ class _OTPPageState extends State<OTPPage> {
     User? user = _firebaseAuth.currentUser;
     if (user?.email == null) {
       _linkEmailAccount(authCredential);
-    }
-
-    if (this.action == 'password-reset') {
+    } else if (this.action == 'password-reset') {
       _updateAccountPassword(authCredential);
     } else {
       _proceed(authCredential);

@@ -72,8 +72,10 @@ class OrderModel extends ChangeNotifier {
     tmpOrder.addAll({
       'imageUrls': urls,
     });
+
     if (notifyCustomer) {
       orderService.sendEmail("in_process", tmpOrder);
+      orderService.sendSMS("in_process", tmpOrder);
     }
   }
 

@@ -22,7 +22,8 @@ class _ProcessCardState extends State<ProcessCard> {
 
   bool _isLoading = false;
   _ProcessCardState(this.order) {
-    order.grandTotal = int.tryParse(order.data['grandTotal'] ?? "0") ?? 0;
+    order.grandTotal =
+        int.tryParse(order.data['booking_total_amount'] ?? "0") ?? 0;
   }
 
   Future<QuerySnapshot<Map<String, dynamic>>>? offeringsFuture;

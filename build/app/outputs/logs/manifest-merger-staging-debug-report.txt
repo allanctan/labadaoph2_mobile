@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
-MERGED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
+ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-46:12
 MERGED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_analytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
@@ -98,16 +98,16 @@ INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/
 		INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-46:12
 		INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:1-46:12
 		INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:3:4-42:19
+ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:3:4-44:19
 MERGED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_crashlytics] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] /Users/allanctan/Documents/labadaph2/labadaph2_mobile/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
@@ -183,7 +183,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alla
 	android:icon
 		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:5:9-45
 activity#com.sswhite.labadaph2_mobile.MainActivity
-ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:6:9-34:20
+ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:6:9-35:20
 	android:launchMode
 		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:8:13-43
 	android:hardwareAccelerated
@@ -219,17 +219,17 @@ ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src
 	android:name
 		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:32:27-74
 meta-data#flutterEmbedding
-ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:37:9-39:33
+ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:39:9-41:33
 	android:value
-		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:39:13-30
+		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:41:13-30
 	android:name
-		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:38:13-44
+		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:40:13-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:40:9-41:70
+ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:42:9-43:70
 	android:value
-		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:41:13-68
+		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:43:13-68
 	android:name
-		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:40:20-65
+		ADDED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml:42:20-65
 uses-sdk
 INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/allanctan/Documents/labadaph2/labadaph2_mobile/android/app/src/main/AndroidManifest.xml

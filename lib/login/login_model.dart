@@ -74,8 +74,9 @@ class LoginModel extends ChangeNotifier {
       errorMessage = "The password is incorrect. Please check your password.";
       this.setBusy(false);
     } else if (e.code == 'ERROR_USER_NOT_FOUND' || e.code == 'user-not-found') {
+      errorMessage = "Login failed. User credential is invalid.";
       //check user by phone number if existing
-      isLoginPage = false;
+//      isLoginPage = false;
       this.setBusy(false);
     } else {
       errorMessage = e.message;

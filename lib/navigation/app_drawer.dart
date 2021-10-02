@@ -1,5 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:labadaph2_mobile/common/dialog.dart';
+import 'package:labadaph2_mobile/login/login_signup_page.dart';
 import 'package:labadaph2_mobile/order/orders_page.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -95,7 +98,14 @@ class AppDrawer extends StatelessWidget {
             Align(
               alignment: Alignment.centerRight,
               child: TextButton(
-                onPressed: () {},
+                onPressed: () async {
+                  bool confirm = await DialogHelper.confirmYesNo(context,
+                      "Confirm Logout", "Are you sure you want to logout?");
+                  if (confirm)
+                    FirebaseAuth.instance.signOut().then((value) =>
+                        Navigator.pushReplacementNamed(
+                            context, LoginSignupPage.routeName));
+                },
                 child: Text('Logout'),
               ),
             ),

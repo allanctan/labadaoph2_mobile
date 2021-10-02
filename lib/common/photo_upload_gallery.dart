@@ -127,30 +127,28 @@ class _PhotoUploadGalleryState extends State<PhotoUploadGallery> {
                 }),
               ] +
               List.generate(photos.length, (index) {
-                return Expanded(
-                  child: Stack(
-                    fit: StackFit.expand,
-                    children: [
-                      Container(
-                          color: Colors.grey,
-                          margin: EdgeInsets.all(2),
-                          child: Image(
-                            fit: BoxFit.cover,
-                            image: FileImage(File(photos[index].path)),
-                          )),
-                      (imageUrls[photos[index].path]?.isNotEmpty ?? false)
-                          ? Positioned(
-                              bottom: 4,
-                              right: 4,
-                              child:
-                                  Icon(Icons.check_circle, color: Colors.green))
-                          : Positioned(
-                              bottom: 4,
-                              right: 4,
-                              child: Icon(Icons.check_circle_outline,
-                                  color: Colors.grey))
-                    ],
-                  ),
+                return Stack(
+                  fit: StackFit.expand,
+                  children: [
+                    Container(
+                        color: Colors.grey,
+                        margin: EdgeInsets.all(2),
+                        child: Image(
+                          fit: BoxFit.cover,
+                          image: FileImage(File(photos[index].path)),
+                        )),
+                    (imageUrls[photos[index].path]?.isNotEmpty ?? false)
+                        ? Positioned(
+                            bottom: 4,
+                            right: 4,
+                            child:
+                                Icon(Icons.check_circle, color: Colors.green))
+                        : Positioned(
+                            bottom: 4,
+                            right: 4,
+                            child: Icon(Icons.check_circle_outline,
+                                color: Colors.grey))
+                  ],
                 );
               })),
     );
