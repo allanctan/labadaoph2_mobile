@@ -137,6 +137,19 @@ class _PhotoUploadGalleryState extends State<PhotoUploadGallery> {
                           fit: BoxFit.cover,
                           image: FileImage(File(photos[index].path)),
                         )),
+                    Positioned(
+                      top: 4,
+                      right: 4,
+                      child: InkWell(
+                        child: Icon(Icons.delete, color: Colors.grey),
+                        onTap: () {
+                          setState(() {
+                            imageUrls.remove(photos[index].path);
+                            print(photos.removeAt(index));
+                          });
+                        },
+                      ),
+                    ),
                     (imageUrls[photos[index].path]?.isNotEmpty ?? false)
                         ? Positioned(
                             bottom: 4,

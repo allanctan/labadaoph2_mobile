@@ -221,8 +221,14 @@ class _OrdersPageState extends State<OrdersPage> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Order No : ' +
-                                (orderData.data()?["order_no"] ?? "")),
+                            InkWell(
+                                child: Text('Order No : ' +
+                                    (orderData.data()?["order_no"] ?? "")),
+                                onTap: () => Navigator.pushNamed(
+                                      context,
+                                      OrderPage.routeName,
+                                      arguments: orderData.data(),
+                                    )),
                             Text(
                                 orderData.get("firstname") +
                                     " " +
@@ -257,10 +263,9 @@ class _OrdersPageState extends State<OrdersPage> {
                       subtitle: Padding(
                         padding: const EdgeInsets.fromLTRB(0, 8, 0, 8),
                         child: Text(CalendarTime(
-                                DateTime.fromMicrosecondsSinceEpoch(
-                                    orderData
-                                        .get("createdAt")
-                                        .microsecondsSinceEpoch))
+                                DateTime.fromMicrosecondsSinceEpoch(orderData
+                                    .get("createdAt")
+                                    .microsecondsSinceEpoch))
                             .toHuman),
                       ),
                       trailing: _buildAction(orderData.data()!),

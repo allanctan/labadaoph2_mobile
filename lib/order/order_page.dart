@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:labadaph2_mobile/order/widgets/customer_card.dart';
+import 'package:labadaph2_mobile/order/widgets/history_card.dart';
 import 'package:labadaph2_mobile/order/widgets/payment_card.dart';
 import 'package:labadaph2_mobile/order/widgets/photo_gallery_card.dart';
 import 'package:labadaph2_mobile/order/widgets/process_card.dart';
@@ -53,6 +54,7 @@ class OrderPage extends StatelessWidget {
                 pickupMode: "Delivery",
               )
             : Container(width: 0, height: 0),
+        HistoryCard(order: sOrder)
       ],
     );
   }

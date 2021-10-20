@@ -23,6 +23,16 @@ class OrdersService {
         .add({'updatedAt': DateTime.now(), 'activity': activity});
   }
 
+  Future<QuerySnapshot<Map<String, dynamic>>> getActivity(
+      {required String docId}) {
+    return _dbRef
+        .collection('orders')
+        .doc(docId)
+        .collection("activity")
+        .orderBy('updatedAt', descending: true)
+        .get();
+  }
+
   Future<void> archiveOrder(String docID) {
     return _dbRef
         .collection('orders')
@@ -60,10 +70,16 @@ class OrdersService {
   Future<void> sendEmail(String template, Map<String, dynamic> order) async {
     DocumentSnapshot<Map<String, dynamic>> notif =
         await _dbRef.collection('notifications').doc(template).get();
+    DocumentSnapshot<Map<String, dynamic>> store = await _dbRef.get();
+    String prefix = "";
+    if (store.exists) if (store.data()?['group']?.isNotEmpty ?? false)
+      prefix = store.data()?['group'] + "_";
     String bcc = "support@labada.ph," + order["store_email"];
+    order['is_online_payment'] =
+        (order['modes_of_payment'] != "Cash on Delivery");
     if (notif.exists) if (notif.data()?['email']?.isNotEmpty ?? false)
       bcc = bcc + "," + notif.data()!['email']!;
-    FirebaseFirestore.instance.collection("mail").add({
+    FirebaseFirestore.instance.collection(prefix + "mail").add({
       "bcc": bcc,
       "template": {"data": order, "name": template},
       "to": order["email"]
